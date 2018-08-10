@@ -18,7 +18,7 @@ var detector = {
         return "unknown"
     },
     getFullIdentity: function(){
-        var url = "http://ip-api.com/json";
+        var url = "https://ip-api.com/json";
         if(fetch !== undefined){
             fetch(url)
                 .then(res=>res.json(), err=>console.log(err))
