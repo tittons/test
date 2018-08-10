@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="popup">
+            <button class="popup__button-close" onclick="alert('Неа')"><i class="fas fa-times"></i></button>
+            <div class="popup__label-recommend">Рекомендуем</div>
+            <div class="popup__content">
+                <div class="popup__row">
+                    <div class="popup__col popup__col--s">
+                        <figure class="popup__logo">
+                            <img src="not_chrome.png" />
+                        </figure>
+                    </div>
+                    <div class="popup__col popup__col--l">
+                        <hgroup class="popup__content-header">
+                            <h2 class="popup__content-subtitle">Самый быстрый браузер</h2>
+                            <h1 class="popup__content-title">
+                                Nechrome
+                            </h1>
+                            <div class="popup__stats">
+                                <span class="popup__rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span><span> (21 677)</span>
+                            </div>
+                        </hgroup>
+                        <section class="popup__content-body">
+                            <p>Открывает страницы до того, как вы об этом подумали.</p>
+                            <p>Разгоняет компьютер до сверхзвуковых скоростей.</p>
+                            <p>Делает за вас зарядку!</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="popup__row popup__row--center">
+                    <button class="popup__button-download" onclick="alert('Нет')">
+                        <span class="popup__button-download-icon">
+                            <i class="fas fa-download"></i>
+                        </span>
+                        <span class="popup__button-download-label">
+                            Скачать сейчас
+                        </span>
+                    </button>
+                    <div style="color:rgb(25,175,190);">Это бесплатно!</div>
+                </div>
+            </div>
+            <div id="test-message" class="popup_footer-test-message"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
